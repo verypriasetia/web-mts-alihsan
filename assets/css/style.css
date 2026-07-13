@@ -1080,3 +1080,11 @@ body {
     background:#D4AF37;
     color:#111827;
 }
+.prestasi-card{
+    flex-direction:column;
+}
+
+.prestasi-image{
+    width:100%;
+    height:220px;
+}
