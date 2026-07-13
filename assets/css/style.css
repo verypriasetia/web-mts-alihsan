@@ -294,6 +294,137 @@ body {
     background:#D4AF37;
     transform:scale(1.25);
 }
+/* =====================================================
+   PRESTASI HOMEPAGE
+===================================================== */
+
+.prestasi-home{
+    background:#FFFDF5;
+    padding:55px 20px;
+}
+
+.prestasi-container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.prestasi-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-bottom:28px;
+    gap:20px;
+}
+
+.prestasi-header h2{
+    font-size:30px;
+    color:#14532D;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.prestasi-header p{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.btn-prestasi{
+    display:inline-block;
+    background:#14532D;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    border:2px solid #D4AF37;
+    transition:.3s;
+}
+
+.btn-prestasi:hover{
+    background:#D4AF37;
+    color:#111827;
+}
+
+#prestasiHomeCard{
+    min-height:280px;
+}
+
+.prestasi-card{
+    display:grid;
+    grid-template-columns:360px 1fr;
+    gap:35px;
+    background:#fff;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.prestasi-card img{
+    width:100%;
+    height:100%;
+    min-height:280px;
+    object-fit:cover;
+}
+
+.prestasi-body{
+    padding:35px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.badge-prestasi{
+    display:inline-block;
+    background:#D4AF37;
+    color:#111827;
+    font-size:12px;
+    font-weight:700;
+    padding:6px 14px;
+    border-radius:20px;
+    margin-bottom:18px;
+}
+
+.prestasi-body h3{
+    font-size:30px;
+    color:#14532D;
+    margin-bottom:10px;
+}
+
+.prestasi-meta{
+    color:#777;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.prestasi-body p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.btn-detail-prestasi{
+    align-self:flex-start;
+    background:#14532D;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn-detail-prestasi:hover{
+    background:#D4AF37;
+    color:#111827;
+}
+
+.prestasi-loading{
+    background:#fff;
+    border-radius:12px;
+    padding:80px;
+    text-align:center;
+    color:#999;
+}
 
 /* ========== TATA LETAK STRUKTUR KOLOM SEJAJAR ========== */
 .main-content-section {
