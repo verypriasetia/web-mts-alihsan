@@ -1010,4 +1010,73 @@ body {
     flex-direction:column;
     gap:25px;
 }
-slider idak disentuh
+
+/* ===================================
+   PRESTASI TERBARU
+=================================== */
+
+.prestasi-box-container{
+    background:#ffffff;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 4px 15px rgba(0,0,0,.03);
+}
+
+.prestasi-card{
+    display:flex;
+    gap:22px;
+    align-items:center;
+}
+
+.prestasi-image{
+    width:230px;
+    height:170px;
+    object-fit:cover;
+    border-radius:8px;
+    flex-shrink:0;
+}
+
+.prestasi-content{
+    flex:1;
+}
+
+.prestasi-label{
+    display:inline-block;
+    background:#D4AF37;
+    color:#111827;
+    padding:5px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:12px;
+}
+
+.prestasi-content h3{
+    color:#14532D;
+    font-size:22px;
+    margin-bottom:10px;
+    line-height:1.4;
+}
+
+.prestasi-content p{
+    color:#666;
+    margin-bottom:22px;
+    font-size:14px;
+}
+
+.btn-prestasi{
+    display:inline-block;
+    padding:11px 24px;
+    border-radius:30px;
+    text-decoration:none;
+    background:#14532D;
+    color:#fff;
+    font-weight:600;
+    border:1px solid #D4AF37;
+    transition:.3s;
+}
+
+.btn-prestasi:hover{
+    background:#D4AF37;
+    color:#111827;
+}
