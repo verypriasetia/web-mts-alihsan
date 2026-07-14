@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 12px 20px;
     border-bottom: 2px solid #D4AF37; /* Aksen Emas */
     width: 100%;
 }
@@ -45,14 +45,14 @@ body {
 }
 
 .logo-img {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     object-fit: contain;
 }
 
 .logo-text h2 {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
@@ -60,7 +60,7 @@ body {
 
 .logo-text h2 span {
     color: #D4AF37;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -74,7 +74,7 @@ body {
 
 .social-icons a {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .social-icons a:hover {
@@ -93,7 +93,7 @@ body {
 
 .running-text-container marquee {
     color: #FFFDF5;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     display: block;
 }
@@ -114,10 +114,10 @@ body {
 
 .navbar-menu > li > a {
     display: block;
-    padding: 14px 20px;
+    padding: 12px 16px;
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 
@@ -138,7 +138,7 @@ body {
     left: 0;
     background-color: #14532D;
     list-style: none;
-    min-width: 220px;
+    min-width: 200px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     border-top: 3px solid #D4AF37;
     opacity: 0;
@@ -150,10 +150,10 @@ body {
 
 .sub-menu li a {
     display: block;
-    padding: 11px 20px;
+    padding: 10px 18px;
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -175,9 +175,10 @@ body {
 .hero-slider-container {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     overflow: hidden;
     background: #000;
+    min-height: 500px;
 }
 
 .slider-wrapper {
@@ -188,9 +189,10 @@ body {
 
 .slide-item {
     min-width: 100%;
-    height: 90vh;
+    height: 85vh;
     position: relative;
     overflow: hidden;
+    min-height: 500px;
 }
 
 .hero-illustration {
@@ -224,17 +226,17 @@ body {
     left: 8%;
     top: 50%;
     transform: translateY(-50%);
-    width: 620px;
-    max-width: 90%;
+    width: 600px;
+    max-width: 85%;
     z-index: 10;
 }
 
 .hero-content h1 {
-    font-size: 58px;
-    line-height: 1.05;
+    font-size: 52px;
+    line-height: 1.1;
     font-weight: 800;
     color: #fff;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     text-shadow: 0 3px 15px rgba(0, 0, 0, .45);
 }
 
@@ -242,24 +244,24 @@ body {
     display: inline-block;
     background: #D4AF37;
     color: #111827;
-    padding: 8px 18px;
+    padding: 8px 16px;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .hero-content .description {
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.7;
     color: rgba(255, 255, 255, .92);
-    margin-bottom: 35px;
+    margin-bottom: 32px;
     text-shadow: 0 2px 10px rgba(0, 0, 0, .45);
 }
 
 .btn-more {
     display: inline-block;
-    padding: 16px 34px;
+    padding: 14px 32px;
     border-radius: 50px;
     text-decoration: none;
     background: #14532D;
@@ -267,6 +269,7 @@ body {
     font-weight: 700;
     border: 2px solid #D4AF37;
     transition: 0.3s;
+    font-size: 14px;
 }
 
 .btn-more:hover {
@@ -278,16 +281,16 @@ body {
 .slider-dots {
     position: absolute;
     left: 50%;
-    bottom: 35px;
+    bottom: 30px;
     transform: translateX(-50%);
     display: flex;
-    gap: 10px;
+    gap: 8px;
     z-index: 20;
 }
 
 .dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: rgba(255, 255, 255, .35);
     cursor: pointer;
@@ -305,7 +308,7 @@ body {
 
 .prestasi-home {
     background: #FFFDF5;
-    padding: 55px 20px;
+    padding: 50px 20px;
 }
 
 .prestasi-container {
@@ -317,20 +320,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
     gap: 20px;
 }
 
 .prestasi-header h2 {
-    font-size: 30px;
+    font-size: 28px;
     color: #14532D;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 }
 
 .prestasi-header p {
     color: #6b7280;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .btn-prestasi {
@@ -338,9 +341,9 @@ body {
     background: #14532D;
     color: #fff;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 11px 22px;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     border: 2px solid #D4AF37;
     transition: 0.3s;
@@ -352,28 +355,28 @@ body {
 }
 
 #prestasiHomeCard {
-    min-height: 280px;
+    min-height: 260px;
 }
 
 .prestasi-card {
     display: grid;
-    grid-template-columns: 360px 1fr;
-    gap: 35px;
+    grid-template-columns: 340px 1fr;
+    gap: 30px;
     background: #fff;
-    border-radius: 14px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .06);
 }
 
 .prestasi-card img {
     width: 100%;
     height: 100%;
-    min-height: 280px;
+    min-height: 260px;
     object-fit: cover;
 }
 
 .prestasi-body {
-    padding: 35px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -383,29 +386,32 @@ body {
     display: inline-block;
     background: #D4AF37;
     color: #111827;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
-    padding: 6px 14px;
+    padding: 5px 12px;
     border-radius: 20px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
+    width: fit-content;
 }
 
 .prestasi-body h3 {
-    font-size: 30px;
+    font-size: 26px;
     color: #14532D;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    line-height: 1.3;
 }
 
 .prestasi-meta {
-    color: #777;
-    margin-bottom: 20px;
-    font-size: 14px;
+    color: #888;
+    margin-bottom: 16px;
+    font-size: 12px;
 }
 
 .prestasi-body p {
     color: #555;
-    line-height: 1.8;
-    margin-bottom: 25px;
+    line-height: 1.7;
+    margin-bottom: 22px;
+    font-size: 14px;
 }
 
 .btn-detail-prestasi {
@@ -413,9 +419,10 @@ body {
     background: #14532D;
     color: #fff;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 11px 22px;
     border-radius: 30px;
     transition: 0.3s;
+    font-size: 13px;
 }
 
 .btn-detail-prestasi:hover {
@@ -426,7 +433,7 @@ body {
 .prestasi-loading {
     background: #fff;
     border-radius: 12px;
-    padding: 80px;
+    padding: 60px 20px;
     text-align: center;
     color: #999;
 }
@@ -434,7 +441,7 @@ body {
 /* ========== TATA LETAK STRUKTUR KOLOM SEJAJAR ========== */
 .main-content-section {
     background-color: #FFFDF5;
-    padding: 60px 20px;
+    padding: 55px 20px;
     width: 100%;
 }
 
@@ -443,27 +450,28 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1.3fr 1fr;
-    gap: 40px;
+    gap: 35px;
     align-items: stretch;
 }
 
 .column-left-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 30px;
 }
 
 .column-right-wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 30px;
 }
 
 .content-title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: #14532D;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     position: relative;
     padding-bottom: 8px;
     border-bottom: 2px solid rgba(20, 83, 45, 0.1);
@@ -474,7 +482,7 @@ body {
     position: absolute;
     bottom: -2px;
     left: 0;
-    width: 60px;
+    width: 50px;
     height: 2px;
     background-color: #D4AF37;
 }
@@ -482,9 +490,9 @@ body {
 /* Sambutan */
 .welcome-box-container {
     background: #fff;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .03);
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .04);
 }
 
 .welcome-flex {
@@ -493,62 +501,64 @@ body {
 }
 
 .welcome-avatar {
-    width: 220px;
-    height: 280px;
+    width: 200px;
+    height: 260px;
     object-fit: cover;
     object-position: top;
-    border-radius: 10px;
+    border-radius: 8px;
     flex-shrink: 0;
 }
 
 .welcome-body-text h3 {
-    font-size: 18px;
+    font-size: 16px;
     color: #111827;
     margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .welcome-body-text p {
-    font-size: 13.5px;
+    font-size: 13px;
     color: #4b5563;
     line-height: 1.6;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-align: justify;
 }
 
 .signature {
     font-weight: 600;
     color: #14532D;
-    font-size: 13.5px;
+    font-size: 12px;
+    margin-top: 8px;
 }
 
 /* Kotak Galery */
 .gallery-box-container {
     background-color: #FFFFFF;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .gallery-subtitle {
-    font-size: 13px;
+    font-size: 12px;
     color: #9ca3af;
-    margin-top: -15px;
-    margin-bottom: 20px;
+    margin-top: -8px;
+    margin-bottom: 18px;
 }
 
 .gallery-photo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 12px;
 }
 
 .gallery-card {
     position: relative;
     overflow: hidden;
-    height: 150px;
+    height: 130px;
     border-radius: 8px;
 }
 
@@ -565,14 +575,14 @@ body {
     width: 100%;
     background: rgba(20, 83, 45, 0.85);
     color: #FFFFFF;
-    font-size: 12px;
-    padding: 8px;
+    font-size: 11px;
+    padding: 6px 8px;
     text-align: center;
     font-weight: 500;
 }
 
 .gallery-info-text {
-    margin-top: 20px;
+    margin-top: 16px;
     background-color: #FFFDF5;
     padding: 10px;
     border-radius: 4px;
@@ -580,7 +590,7 @@ body {
 }
 
 .gallery-info-text p {
-    font-size: 12px;
+    font-size: 11px;
     color: #6b7280;
     line-height: 1.4;
 }
@@ -588,7 +598,7 @@ body {
 /* ========== SECTION: KATA WARGA ========== */
 .kata-warga-section {
     background-color: #FFFDF5;
-    padding: 20px 20px 60px 20px;
+    padding: 20px 20px 55px 20px;
     width: 100%;
 }
 
@@ -598,18 +608,18 @@ body {
 }
 
 .warga-title {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     color: #D4AF37;
     text-align: center;
-    margin-bottom: 40px;
-    letter-spacing: 1px;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
 }
 
 .warga-title::after {
     content: '';
     display: block;
-    width: 80px;
+    width: 70px;
     height: 3px;
     background-color: #14532D;
     margin: 10px auto 0 auto;
@@ -619,39 +629,41 @@ body {
 .warga-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+    gap: 20px;
     width: 100%;
 }
 
 .warga-card {
     background-color: #FFFFFF;
     border-radius: 8px;
-    padding: 25px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    padding: 22px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
     border-top: 4px solid #14532D;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.3s ease;
+    min-height: 280px;
 }
 
 .warga-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
 
 .quote-icon {
-    color: rgba(212, 175, 55, 0.3);
-    font-size: 28px;
-    margin-bottom: 10px;
+    color: rgba(212, 175, 55, 0.25);
+    font-size: 24px;
+    margin-bottom: 8px;
 }
 
 .warga-text {
-    font-size: 13.5px;
+    font-size: 13px;
     color: #4b5563;
     line-height: 1.6;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    flex-grow: 1;
 }
 
 .warga-profile {
@@ -659,32 +671,32 @@ body {
     align-items: center;
     gap: 12px;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 .warga-avatar-img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     object-fit: cover;
     background-color: #e5e7eb;
 }
 
 .warga-info-meta h4 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: #111827;
 }
 
 .warga-info-meta span {
-    font-size: 12px;
+    font-size: 11px;
     color: #9ca3af;
 }
 
 /* ========== SECTION YOUTUBE CHANNEL ========== */
 .youtube-section {
     background-color: #111827;
-    padding: 60px 20px;
+    padding: 55px 20px;
     width: 100%;
     border-top: 2px solid #D4AF37;
 }
@@ -695,18 +707,18 @@ body {
 }
 
 .youtube-title {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     color: #D4AF37;
     text-align: center;
-    margin-bottom: 40px;
-    letter-spacing: 1px;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
 }
 
 .youtube-title::after {
     content: '';
     display: block;
-    width: 80px;
+    width: 70px;
     height: 3px;
     background-color: #14532D;
     margin: 10px auto 0 auto;
@@ -716,7 +728,7 @@ body {
 .video-row-3col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
+    gap: 20px;
     width: 100%;
 }
 
@@ -732,7 +744,7 @@ body {
     height: 0;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.05);
     background-color: #000;
 }
@@ -752,17 +764,17 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     background-color: rgba(255, 0, 0, 0.85);
     color: #FFFFFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    padding-left: 4px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    padding-left: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
     z-index: 5;
 }
@@ -778,11 +790,11 @@ body {
 }
 
 .video-info {
-    padding: 12px 2px;
+    padding: 10px 2px;
 }
 
 .video-info h3 {
-    font-size: 13.5px;
+    font-size: 12.5px;
     font-weight: 500;
     color: #FFFDF5;
     line-height: 1.5;
@@ -790,21 +802,21 @@ body {
 
 .youtube-btn-container {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .btn-youtube {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background-color: #ff0000;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 12px 28px;
+    padding: 11px 26px;
     font-weight: 600;
-    font-size: 14.5px;
+    font-size: 13px;
     border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.25);
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
@@ -817,7 +829,7 @@ body {
 .main-footer {
     background-color: #0c1017;
     width: 100%;
-    padding: 60px 0 0 0;
+    padding: 55px 0 0 0;
     border-top: 3px solid #D4AF37;
 }
 
@@ -826,22 +838,22 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1.3fr 1fr 1.1fr;
-    gap: 40px;
-    padding: 0 20px 50px 20px;
+    gap: 35px;
+    padding: 0 20px 45px 20px;
 }
 
 .footer-column h3 {
     color: #D4AF37;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     position: relative;
 }
 
 .footer-column h3::after {
     content: '';
     display: block;
-    width: 35px;
+    width: 30px;
     height: 2px;
     background-color: #14532D;
     margin-top: 8px;
@@ -850,23 +862,25 @@ body {
 /* Area Peta Google Maps */
 .google-map-wrapper {
     width: 100%;
-    height: 160px;
+    height: 150px;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .address-detail {
-    font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.75);
-    line-height: 1.7;
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
 }
 
 .address-detail i {
     color: #D4AF37;
     margin-right: 6px;
+    width: 14px;
+    text-align: center;
 }
 
 /* Kolom Tengah (Hubungi Kami) */
@@ -875,9 +889,9 @@ body {
 }
 
 .contact-list li {
-    font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 15px;
+    font-size: 12.5px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 14px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -885,36 +899,37 @@ body {
 
 .contact-list li i {
     color: #D4AF37;
-    width: 16px;
+    width: 14px;
+    text-align: center;
 }
 
 .footer-social-box {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .footer-social-box h4 {
-    font-size: 13px;
+    font-size: 12px;
     color: #FFFFFF;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .footer-social-links {
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
 
 .footer-social-links a {
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     background-color: #111827;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.6);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -929,41 +944,42 @@ body {
 /* Kolom Kanan Atas (Box Pengunjung) */
 .visitor-counter-box {
     background-color: rgba(20, 83, 45, 0.15);
-    padding: 18px;
+    padding: 16px;
     border-radius: 6px;
     border: 1px solid rgba(212, 175, 55, 0.2);
     width: 100%;
 }
 
 .visitor-counter-box h4 {
-    font-size: 13px;
+    font-size: 12px;
     color: #FFFFFF;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .visitor-counter-box h4 i {
     color: #D4AF37;
+    margin-right: 4px;
 }
 
 .counter-display {
     background-color: #111827;
     color: #00ff66;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
-    letter-spacing: 5px;
-    padding: 8px 14px;
+    letter-spacing: 4px;
+    padding: 8px 12px;
     border-radius: 4px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 /* Baris Hak Cipta Paling Bawah */
 .footer-bottom-copyright {
     background-color: #080b10;
-    padding: 20px 0;
+    padding: 18px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     width: 100%;
 }
@@ -976,140 +992,487 @@ body {
 }
 
 .copyright-container p {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.3);
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.25);
 }
 
 /* ========== RESPONSIVITAS MOBILE ========== */
 @media (max-width: 768px) {
     .navbar-top {
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
+        padding: 10px 20px;
     }
 
-    .running-text-container {
-        max-width: 100%;
-    }
-
-    .navbar-menu {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .hero-slider-container {
-        min-height: auto;
-    }
-
-    .slide-item {
-        grid-template-columns: 1fr;
-        padding: 40px 20px;
-    }
-
-    .hero-content h1 {
-        font-size: 28px;
-    }
-
-    .hero-img {
-        height: 240px;
-    }
-
-    .slider-dots {
-        display: none;
-    }
-
-    .section-container {
-        grid-template-columns: 1fr;
-    }
-
-    .column-left-wrapper {
-        gap: 25px;
-    }
-
-    .prestasi-card {
-        grid-template-columns: 1fr;
-    }
-
-    .welcome-flex {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .welcome-avatar {
-        width: 100%;
-        height: auto;
-    }
-
-    .gallery-photo-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .warga-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .video-row-3col {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-top-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar-top {
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
+    .logo-img {
+        width: 40px;
+        height: 40px;
     }
 
     .logo-text h2 {
         font-size: 14px;
     }
 
+    .social-icons {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .running-text-container {
+        max-width: 100%;
+    }
+
+    .running-text-container marquee {
+        font-size: 11px;
+    }
+
     .navbar-menu {
+        flex-wrap: wrap;
+        justify-content: center;
         padding: 0 10px;
-        font-size: 12px;
     }
 
     .navbar-menu > li > a {
         padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .sub-menu {
+        min-width: 180px;
+    }
+
+    .hero-slider-container {
+        height: 75vh;
+        min-height: 400px;
+    }
+
+    .slide-item {
+        height: 75vh;
+        min-height: 400px;
     }
 
     .hero-content {
         left: 5%;
         width: 100%;
-        max-width: 95%;
+        max-width: 90%;
     }
 
     .hero-content h1 {
-        font-size: 22px;
+        font-size: 36px;
         margin-bottom: 12px;
+    }
+
+    .hero-content .subtitle {
+        font-size: 12px;
+        padding: 6px 14px;
+        margin-bottom: 16px;
     }
 
     .hero-content .description {
         font-size: 14px;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 
     .btn-more {
         padding: 12px 24px;
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    .slider-dots {
+        bottom: 20px;
+        gap: 6px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .prestasi-home {
+        padding: 40px 20px;
+    }
+
+    .prestasi-header {
+        flex-direction: column;
+        margin-bottom: 24px;
+        gap: 16px;
+    }
+
+    .prestasi-header h2 {
+        font-size: 24px;
+    }
+
+    .prestasi-card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .prestasi-card img {
+        min-height: 220px;
+    }
+
+    .prestasi-body {
+        padding: 20px;
+    }
+
+    .main-content-section {
+        padding: 40px 20px;
+    }
+
+    .section-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .column-left-wrapper {
+        gap: 20px;
+    }
+
+    .column-right-wrapper {
+        gap: 20px;
+    }
+
+    .content-title {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .welcome-box-container {
+        padding: 20px;
+    }
+
+    .welcome-flex {
+        flex-direction: column;
+    }
+
+    .welcome-avatar {
+        width: 100%;
+        height: 200px;
+    }
+
+    .gallery-photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .gallery-card {
+        height: 120px;
+    }
+
+    .kata-warga-section {
+        padding: 20px 20px 40px 20px;
+    }
+
+    .warga-title {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .warga-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .warga-card {
+        padding: 18px;
+        min-height: auto;
+    }
+
+    .youtube-section {
+        padding: 40px 20px;
+    }
+
+    .youtube-title {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .video-row-3col {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .play-overlay-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .btn-youtube {
+        padding: 10px 20px;
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .main-footer {
+        padding: 40px 0 0 0;
+    }
+
+    .footer-top-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 20px 30px 20px;
+    }
+
+    .footer-column h3 {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .footer-social-links {
+        gap: 6px;
+    }
+
+    .footer-social-links a {
+        width: 30px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .visitor-counter-box {
+        padding: 14px;
+    }
+
+    .counter-display {
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding: 6px 10px;
+    }
+
+    .footer-bottom-copyright {
+        padding: 14px 0;
+    }
+
+    .copyright-container p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-top {
+        gap: 8px;
+        padding: 8px 12px;
+    }
+
+    .navbar-left {
+        gap: 15px;
+    }
+
+    .logo-img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logo-text h2 {
+        font-size: 12px;
+    }
+
+    .logo-text h2 span {
+        font-size: 10px;
+    }
+
+    .social-icons {
+        gap: 8px;
+        padding: 0;
+    }
+
+    .social-icons a {
+        font-size: 11px;
+    }
+
+    .running-text-container {
+        padding: 4px 12px;
+    }
+
+    .running-text-container marquee {
+        font-size: 10px;
+    }
+
+    .navbar-menu {
+        padding: 0 5px;
+    }
+
+    .navbar-menu > li > a {
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    .hero-slider-container {
+        height: 60vh;
+        min-height: 320px;
+    }
+
+    .slide-item {
+        height: 60vh;
+        min-height: 320px;
+    }
+
+    .hero-content {
+        left: 3%;
+        max-width: 95%;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .hero-content .subtitle {
+        font-size: 11px;
+        padding: 5px 12px;
+        margin-bottom: 12px;
+    }
+
+    .hero-content .description {
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 16px;
+    }
+
+    .btn-more {
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+
+    .slider-dots {
+        bottom: 15px;
+        gap: 4px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+
+    .prestasi-home {
+        padding: 30px 15px;
+    }
+
+    .prestasi-header h2 {
+        font-size: 20px;
+    }
+
+    .prestasi-card img {
+        min-height: 180px;
+    }
+
+    .prestasi-body {
+        padding: 16px;
+    }
+
+    .prestasi-body h3 {
+        font-size: 20px;
+    }
+
+    .main-content-section {
+        padding: 30px 15px;
+    }
+
+    .content-title {
+        font-size: 16px;
+    }
+
+    .welcome-avatar {
+        height: 180px;
+    }
+
+    .welcome-body-text h3 {
+        font-size: 14px;
+    }
+
+    .welcome-body-text p {
+        font-size: 12px;
     }
 
     .gallery-photo-grid {
         grid-template-columns: 1fr;
     }
 
-    .prestasi-header {
-        flex-direction: column;
+    .gallery-card {
+        height: 100px;
     }
 
-    .content-title {
+    .warga-title {
         font-size: 18px;
     }
 
+    .warga-card {
+        padding: 16px;
+    }
+
+    .quote-icon {
+        font-size: 20px;
+    }
+
+    .warga-text {
+        font-size: 12px;
+    }
+
+    .warga-avatar-img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .warga-info-meta h4 {
+        font-size: 12px;
+    }
+
+    .youtube-title {
+        font-size: 18px;
+    }
+
+    .video-thumbnail-wrapper {
+        border-radius: 6px;
+    }
+
+    .play-overlay-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .video-info h3 {
+        font-size: 11px;
+    }
+
     .footer-top-container {
-        padding: 0 10px 30px 10px;
+        padding: 0 15px 20px 15px;
+    }
+
+    .footer-column h3 {
+        font-size: 13px;
+    }
+
+    .google-map-wrapper {
+        height: 120px;
+    }
+
+    .address-detail {
+        font-size: 11px;
+    }
+
+    .contact-list li {
+        font-size: 11px;
+    }
+
+    .footer-social-links a {
+        width: 28px;
+        height: 28px;
+    }
+
+    .visitor-counter-box {
+        padding: 12px;
+    }
+
+    .visitor-counter-box h4 {
+        font-size: 11px;
+    }
+
+    .counter-display {
+        font-size: 18px;
+    }
+
+    .copyright-container p {
+        font-size: 9px;
     }
 }
