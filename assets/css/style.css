@@ -168,106 +168,76 @@ body {
     transform: translateY(0);
 }
 
-/* ========== HERO SLIDER (INFINITE LOOP READY) ========== */
+/* =====================================================
+   HERO V2 - FULL WIDTH MODERN
+===================================================== */
+
 .hero-slider-container{
     position:relative;
     width:100%;
-    height:520px;
+    height:90vh;
     overflow:hidden;
     background:#000;
 }
 
-.slider-wrapper {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    /* Transisi dikontrol lewat JavaScript dengan bezier curve yang lebih smooth */
-    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+.slider-wrapper{
+    display:flex;
+    height:100%;
+    transition:transform .8s ease;
 }
 
 .slide-item{
     min-width:100%;
-    height:520px;
+    height:90vh;
     position:relative;
     overflow:hidden;
 }
 
+.hero-illustration{
+    position:absolute;
+    inset:0;
+}
+
+.hero-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
 .hero-content{
     position:absolute;
-    left:9%;
+    left:8%;
     top:50%;
     transform:translateY(-50%);
-    width:560px;
-    max-width:88%;
-    z-index:10;
+    width:520px;
+    max-width:85%;
+    z-index:5;
 }
 
-.hero-content h1{
-    font-size:52px;
-    line-height:1.08;
-    font-weight:800;
+.slider-dots{
+    position:absolute;
+    left:50%;
+    bottom:35px;
+    transform:translateX(-50%);
+    display:flex;
+    gap:10px;
+    z-index:20;
 }
 
-.hero-content .subtitle {
-    color: #D4AF37;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 20px;
+.dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:rgba(255,255,255,.35);
+    cursor:pointer;
+    transition:.3s;
 }
 
-.hero-content .description {
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 30px;
-}
-
-.btn-more {
-    display: inline-block;
-    background-color: #14532D;
-    color: #FFFDF5;
-    text-decoration: none;
-    padding: 12px 28px;
-    border-radius: 6px;
-    font-weight: 600;
-    border: 1px solid #D4AF37;
-}
-
-.btn-more:hover {
-    background-color: #D4AF37;
-    color: #111827;
-}
-
-.hero-img {
-    width: 100%;
-    max-width: 480px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
-
-.slider-dots {
-    position: absolute;
-    bottom: 25px;
-    left: 20px;
-    display: flex;
-    gap: 8px;
-    z-index: 10;
-}
-
-.dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.3);
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.dot.active {
-    width: 28px;
-    background-color: #D4AF37;
+.dot.active{
+    background:#D4AF37;
+    transform:scale(1.25);
 }
 
 /* ========== TATA LETAK STRUKTUR KOLOM SEJAJAR ========== */
@@ -836,10 +806,9 @@ body {
     .slide-item {
         grid-template-columns: 1fr;
         padding: 40px 20px;
-		height:420px;
     }
     .hero-content h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .hero-img {
         height: 240px;
@@ -986,16 +955,3 @@ body {
     flex-direction:column;
     gap:25px;
 }
-
-
-
-
-
-
-background:
-linear-gradient(
-90deg,
-rgba(0,0,0,.72) 0%,
-rgba(0,0,0,.50) 32%,
-rgba(0,0,0,.18) 65%,
-rgba(0,0,0,.08) 100%);
